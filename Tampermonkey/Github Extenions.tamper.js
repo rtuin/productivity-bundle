@@ -4,7 +4,7 @@
 // @version    0.1
 // @description An extension to the original GitHub.com interface
 // @match      https://github.com/*
-// @copyright  2013, Richard Tuin
+// @copyright  Creative Commons Attribution-ShareAlike 3.0 Unported License, 2013, Richard Tuin
 // ==/UserScript==
 
 $('#diff .file').each(function () {
