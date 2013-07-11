@@ -10,7 +10,7 @@
 $('#diff .file').each(function () {
     var $this = $(this);
     var file = $this.find('.info span:nth-child(2)').text().trim();
-	var element = $('<a href="#" class="minibutton">Copy path</a>');
+    var element = $('<a href="#" class="minibutton" style="height: 25px;">Copy path</a>');
     element.click(function(event) {
         prompt("Press ⌘+C to copy the filepath", file);
         event.preventDefault();
